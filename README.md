@@ -2,7 +2,33 @@
 An **AI-driven network security** project that detects **VPN usage** in network traffic and dynamically enforces firewall rules using **nftables**.  
 
 ---
+## 🚀 Features  
+✔ **AI-Powered VPN Detection** – Uses machine learning to analyze network patterns.  
+✔ **Real-Time Firewall Enforcement** – Blocks VPN connections dynamically using nftables.  
+✔ **Traffic Sniffing** – Captures network packets with tcpdump for AI analysis.  
+✔ **Admin Dashboard** – React/Vue-based UI for real-time monitoring & rule management.  
+✔ **Secure API** – JWT authentication to restrict access to firewall settings.  
+✔ **Scalable & Modular** – Easily extendable with new security modules.  
+---
+## 📡 How It Works  
 
+### 🔍 **Traffic Capture & Feature Extraction**  
+- `traffic_sniffer.py` – Captures network packets for analysis.  
+- `feature_extractor.py` – Converts raw data into AI-friendly input.  
+
+### 🧠 **AI-Based VPN Detection**  
+- `vpn_detector.py` – Uses a trained AI model to detect VPN usage.  
+- If VPN traffic is detected, it triggers `firewall_manager.py` to block the IP.  
+
+### 🔥 **Firewall & Security Management**  
+- `firewall_manager.py` – Manages firewall rules dynamically.  
+- `vpn_signatures.py` – Maintains a local VPN signature database for faster detection.  
+- `logger.py` – Stores AI detections and firewall logs.  
+
+### 📡 **Admin API & Web Dashboard**  
+- `api/main.py` – FastAPI backend for UI interaction.  
+- `frontend/src` – React/Vue UI for real-time VPN monitoring.  
+---
 ## 📌 Project Structure  
 ```plaintext
 📂 vpn-firewall-ai
@@ -49,3 +75,6 @@ An **AI-driven network security** project that detects **VPN usage** in network 
 ├── docker-compose.yml - Docker container configuration
 ├── README.md - Usage instructions
 ├── .env - Environment variables for security
+
+
+
