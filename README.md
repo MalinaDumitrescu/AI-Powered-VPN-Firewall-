@@ -3,12 +3,12 @@ An **AI-driven network security** project that detects **VPN usage** in network 
 
 ---
 ## 🚀 Features  
-✔ **AI-Powered VPN Detection** – Uses machine learning to analyze network patterns.  
-✔ **Real-Time Firewall Enforcement** – Blocks VPN connections dynamically using nftables.  
-✔ **Traffic Sniffing** – Captures network packets with tcpdump for AI analysis.  
-✔ **Admin Dashboard** – React/Vue-based UI for real-time monitoring & rule management.  
-✔ **Secure API** – JWT authentication to restrict access to firewall settings.  
-✔ **Scalable & Modular** – Easily extendable with new security modules.  
+- **AI-Powered VPN Detection** – Uses machine learning to analyze network patterns.  
+- **Real-Time Firewall Enforcement** – Blocks VPN connections dynamically using nftables.  
+- **Traffic Sniffing** – Captures network packets with tcpdump for AI analysis.  
+- **Admin Dashboard** – React/Vue-based UI for real-time monitoring & rule management.  
+- **Secure API** – JWT authentication to restrict access to firewall settings.  
+- **Scalable & Modular** – Easily extendable with new security modules.  
 ---
 ## 📡 How It Works  
 
