@@ -1,5 +1,7 @@
 # 🔒 AI-Powered VPN Firewall  
-An **AI-driven network security** project that detects **VPN usage** in network traffic and dynamically enforces firewall rules using **nftables**.  
+An **AI-driven network security** project that detects **VPN usage** in network traffic and dynamically enforces firewall rules using **nftables**.
+
+## Status- still in progress, currently collecting data for training my AI Model. 
 
 ---
 ## 🚀 Features  
